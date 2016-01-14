@@ -60,6 +60,8 @@ public abstract class AttendanceTrackingServiceTest {
 	}
 
 	private void prepareDatabase() {
+            
+            System.err.println("ahoj volam sa pako ");
 		Operation script = sequenceOf(
 				deleteAllFrom(
 						"animal", 
